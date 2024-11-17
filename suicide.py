@@ -121,7 +121,6 @@ def show_page():
                     with st.spinner('''درحال تحلیل ، لطفا صبور باشید'''):
                         time.sleep(2)
                         st.success(u'\u2713''تحلیل انجام شد')
-                        st.success(u'\u2713''تحلیل انجام شد')
                         text3 = 'بر اساس تحلیل من ، علائمی از خطر خودکشی در متن موردنظر دیده نمی شود'
                         def stream_data3():
                             for word in text3.split(" "):
